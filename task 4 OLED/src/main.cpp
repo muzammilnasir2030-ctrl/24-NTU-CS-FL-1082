@@ -47,4 +47,12 @@ void setup() {
 
 void loop() {
     // Add your application code here.
+        display.clearDisplay();
+    display.setTextSize(1);
+    display.setTextColor(SSD1306_WHITE);
+
+    display.setCursor(40, 20);
+    display.println("Hello IoT");
+
+    display.display();
 }
